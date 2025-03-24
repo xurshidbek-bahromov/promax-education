@@ -9,7 +9,7 @@ function FooterSection() {
       <div className="flex gap-4 flex-col md:flex-row md:items-center md:justify-center">
         <div>
           <img
-            src="/images/footer_logo.png"
+            src="/images/logo.png"
             alt="footer logo"
             className="w-[100px]"
           />
@@ -19,7 +19,7 @@ function FooterSection() {
           className="h-[83px] bg-[#626381] hidden md:block"
         />
         <p className="text-white font-semibold text-[22px]">
-          Virtual Class for Zoom
+          Eng Muhim Maqsadlaringizni Biling
         </p>
       </div>
       <div className="flex flex-col md:justify-center md:items-center my-16">
@@ -49,7 +49,7 @@ function FooterSection() {
           />
           <p className="text-[#B2B3CF]">Terms & Conditions</p>
         </div>
-        <p className="text-[#B2B3CF] mt-4">© 2021 Class Technologies Inc. </p>
+        <p className="text-[#B2B3CF] mt-4">© 2025 XurshidDev | Youtube </p>
       </div>
     </section>
   );
