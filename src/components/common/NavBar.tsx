@@ -14,7 +14,7 @@ function NavBar() {
   return (
     <div className="md:sticky md:top-0   md:shadow-none z-20">
       {/* DESKTOP */}
-      <div className=" hidden lg:block animate-in fade-in zoom-in bg-[#ffffffbb]">
+      <div className=" hidden lg:block animate-in fade-in zoom-in bg-[#ffffffbb] backdrop-blur-md">
         <div className="flex justify-between mx-[100px] items-center">
           <div>
             <img src="/images/logoheader.png" alt="logo" width={80} />
@@ -51,8 +51,8 @@ function NavBar() {
       </div>
       {/* MOBILE */}
       <div
-        className={` block lg:hidden shadow-sm  fixed top-0 w-full z-[999] bg-white py-4 animate-in fade-in zoom-in  ${
-          menu ? " bg-primary py-2" : ""
+        className={` block lg:hidden shadow-sm  fixed top-0 w-full z-[999] bg-[#ffffff35] backdrop-blur-md py-4 animate-in fade-in zoom-in  ${
+          menu ? " bg-[#6d6d6dd5] py-2" : ""
         } `}
       >
         <div className="flex justify-between mx-[10px]">
