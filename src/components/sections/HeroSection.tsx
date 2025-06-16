@@ -6,7 +6,7 @@ function HeroSection() {
     <section className="flex justify-between flex-col md:flex-row items-center  mx-4 md:mx-[5rem] pt-32 lg:pt-4 xl:pt-0">
       <div>
         <p className="font-bold text-[30px] md:text-[54px] text-secondary">
-         <span className="text-primary">ProMax Education</span> bilan bilimingizni o'shiring
+         <span className="text-primary">ProMax Education</span> bilan bilimingizni oshiring
         </p>
         <p className="text-[#464646] text-[20px] my-5 mb-8">
           Lorem ipsum dolor sit amet consectetur.
