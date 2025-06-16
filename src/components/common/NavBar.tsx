@@ -14,7 +14,7 @@ function NavBar() {
   return (
     <div className="md:sticky md:top-0   md:shadow-none z-20">
       {/* DESKTOP */}
-      <div className=" hidden lg:block animate-in fade-in zoom-in bg-[#ffffffbb] backdrop-blur-md">
+      <div className=" hidden lg:block shadow-sm  fixed top-0 w-full z-[999] animate-in fade-in zoom-in bg-[#ffffffbb] backdrop-blur-md">
         <div className="flex justify-between mx-[100px] items-center">
           <div>
             <img src="/images/logoheader.png" alt="logo" width={80} />
